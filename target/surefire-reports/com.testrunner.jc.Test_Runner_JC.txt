@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.testrunner.jc.Test_Runner_JC
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.456 s <<< FAILURE! - in com.testrunner.jc.Test_Runner_JC
+Feature: Jcpenney Shopping Automation Demo  Time elapsed: 0.144 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,296 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "HomePage of JC Penney",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;homepage-of-jc-penney",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6615640700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch The Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204072600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Scroll Down To The Outdoor Furniture",
+            "match": {
+              "location": "StepDefinition.user_Scroll_Down_To_The_Outdoor_Furniture()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6653948800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click On The Outdoor Furniture",
+            "match": {
+              "location": "StepDefinition.user_click_On_The_Outdoor_Furniture()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Dress Mens Shopping",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;dress-mens-shopping",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1842558301,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Scroll To Select The Dress",
+            "match": {
+              "location": "StepDefinition.user_Scroll_To_Select_The_Dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4091983800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Select The Dress And It Navigates To Shopping Page",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Dress_And_It_Navigates_To_Shopping_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Sanitytest"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Mens Dress Size And Quantity Selection",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;mens-dress-size-and-quantity-selection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 350258299,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Select The Chest Size Of The Dress",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Chest_Size_Of_The_Dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415523901,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Select The Quantity Of The Dress",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Quantity_Of_The_Dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263777200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Select The Pant Size",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Pant_Size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181082699,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Select The Quantity Of The Pant",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Quantity_Of_The_Pant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184565500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Select The Vest Size Of The Dress",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Vest_Size_Of_The_Dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194256101,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Select The Quantity Of Vest",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Quantity_Of_Vest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232563500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Click On the Add To Cart Button",
+            "match": {
+              "location": "StepDefinition.user_Click_On_the_Add_To_Cart_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Sanitytest"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Purchase Proceed Page",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;purchase-proceed-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9639973700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Proceed To Purchase",
+            "match": {
+              "location": "StepDefinition.user_Proceed_To_Purchase()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Sanitytest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Proceed To Checkout Page",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;proceed-to-checkout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 620500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Click The Coupon To Get Discount",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Coupon_To_Get_Discount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326217601,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User Enter The Coupon Code In the Coupon Text Box",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_Coupon_Code_In_the_Coupon_Text_Box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1069627300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User Check The Charity Checkbox",
+            "match": {
+              "location": "StepDefinition.user_Check_The_Charity_Checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1741081201,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Checkout To Payment Page",
+            "match": {
+              "location": "StepDefinition.user_Checkout_To_Payment_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Sanitytest"
+          }
+        ]
+      }
+    ],
+    "name": "Jcpenney Shopping Automation Demo",
+    "description": "",
+    "id": "jcpenney-shopping-automation-demo",
+    "keyword": "Feature",
+    "uri": "JcPenney.feature"
+  }
+]

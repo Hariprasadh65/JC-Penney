@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "jcpenney-shopping-automation-demo;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 6,
+            "name": "User Launch The Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 7,
+            "name": "User Scroll Down To The Outdoor Furniture",
+            "keyword": "When "
+          },
+          {
+            "line": 8,
+            "name": "User click On The Outdoor Furniture",
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Jcpenney Shopping Automation Demo",
+    "description": "",
+    "id": "jcpenney-shopping-automation-demo",
+    "keyword": "Feature",
+    "uri": "JcPenney.feature"
+  }
+]
